@@ -52,14 +52,26 @@ footer {
     background-size: 6px 3px;
 }
 
-footer ul {
+.Border_card {
+    border-color: darkgoldenrod;
+}
+
+/* footer {
+    position: fixed;
+    bottom: 0px;
+} */
+
+footer div ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 50px;
+    width: 100%;
 
 
 }
+
+
 
 footer ul li {
     list-style-type: none;
